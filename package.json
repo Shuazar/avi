@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "evest": "npx cypress run --headless --browser  electron --spec \"cypress/e2e/avi/affiliates.cy.js\" "
+  },
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+  
+}
